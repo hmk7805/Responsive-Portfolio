@@ -377,24 +377,86 @@ footer {
 
 @media  screen and (max-width: 768px) {
 
+	header{
+		
+		position:static;
+
+	}
+
+	.name {
+		position:relative;
+		left:0px;
+		margin-left:20px;
+
+	}
+
+	nav {
+
+		position: relative;
+		right:0px;
+		margin-right:20px;
+
+
+	}
+
 	main {
-		clear:both;
+
 		width:100%;
 		padding:20px;
+		position:inherit;
 
 	}
 
 	.about-page, .contact-page, .portfolio-page, .connect{
 
 		width:100%;
-		margin:0;
-		padding:0;
+		margin:0px;
+		padding:20px;
+		position:relative;
+		left:0px;
+
+	}
+
+	.p{
+		width:100%;
+
+	}
+
+	.prof-img{
+		
+		
+	}
+
+	.left-photos{
+		
+		float:left;
+		margin-left:40px;
+
+	} 
+
+	.right-photos {
+
+		float:right;
+		margin-right:40px;
+
+	}
+
+	input[type=text] {
+		width:100%;
+		margin-right:10px;
 
 	}
 
 	aside{
+		
+		width:100%;
+		padding:20px;
+		margin:20px auto 0px auto;
+	}
 
-		margin-top:20px;
+	.connect {
+		margin:auto;
+		text-align: center;
 	}
 }
 
