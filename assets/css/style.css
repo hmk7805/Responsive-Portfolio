@@ -337,8 +337,13 @@ footer {
 		padding:0;
 
 	}
+/*Still need to format for own line 
+in middle of section on this query*/
+	.profile-image {
+		display:block;
+	}
 
-	.p{
+	.p1{
 		width:100%;
 
 	}
@@ -422,11 +427,6 @@ footer {
 
 	}
 
-	.prof-img{
-		
-		
-	}
-
 	.left-photos{
 		
 		float:left;
@@ -462,11 +462,26 @@ footer {
 
 @media  screen and (max-width: 640px) {
 
-
-	header {
-		
-		width:100%;
+header {
 		position:static;
+		margin:0;
+		width:100%;
+
+	
+	}
+
+	.name {
+		text-align:center;
+		width:100%;
+		margin:0px;
+
+	}
+
+	nav {
+		text-align:center;
+		background-color: #ffffff;
+		width:100%;
+		margin:0px;
 
 	}
 
@@ -474,20 +489,55 @@ footer {
 		clear:both;
 		width:100%;
 		padding:20px;
+		
 
 	}
 
 	.about-page, .contact-page, .portfolio-page, .connect{
 
 		width:100%;
-		margin:0;
+		margin:0px auto 0px auto;
 		padding:0;
+
+	}
+/*Still need to format for own line 
+in middle of section on this query*/
+	.profile-image {
+		display:block;
+	}
+
+	.p1{
+		width:100%;
+
+	}
+
+	.prof-img{
+		width:100%;
+		
+	}
+
+	.left-photos, .right-photos {
+	
+		margin:20px auto 20px auto;
+		float:none;
+		
+	}
+
+	input[type=text] {
+		width:100%;
+		margin-right:10px;
 
 	}
 
 	aside{
+		
+		width:100%;
+		margin:20px auto 0px auto;
+	}
 
-		margin-top:20px;
+	.connect {
+		margin:auto;
+		text-align: center;
 	}
 }
 
